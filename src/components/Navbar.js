@@ -9,10 +9,10 @@ import Bars from '../images/bars.svg'
 const Nav = styled.nav `
     height: 60px;
     display: flex;
-    background: red;
     justify-content: space-between;
     z-index: 100;
     width: 100%;
+    position: fixed;
     padding: 1rem 2rem;
 `
 const NavLink = css `
